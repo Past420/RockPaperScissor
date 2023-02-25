@@ -15,6 +15,12 @@ body
     justify-content: space-evenly;
 }
 
+.topdog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .selection .rock
 {
     width: 300px;
@@ -65,8 +71,7 @@ body
 {
     color:aliceblue;
     display: flex;
-    justify-content: space-evenly;
-    width: 400px;   
+    justify-content: space-evenly;  
 }
 
 .topdog .display
@@ -74,6 +79,15 @@ body
     color:aliceblue;
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
     
 }
+
+.score , .display
+{
+    font-size: 35px;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
