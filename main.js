@@ -11,6 +11,7 @@ function getchoice()
 
 function winner(p,c)
 {
+    document.getElementById("bruh").innerHTML="";
     if(p===c)
     {
         return 0;
@@ -33,7 +34,7 @@ function check(event)
     winner(playerchoice,computerchoice)
     if(playerscore===5)
     {
-        alert("You Win");
+        document.getElementById("bruh").innerHTML="You Win";
         playerscore = 0;
         computerscore = 0;
         document.getElementById("c").innerHTML = computerscore;
@@ -41,7 +42,7 @@ function check(event)
     }
     else if(computerscore==5)
     {
-        alert("You Lose");
+        document.getElementById("bruh").innerHTML="You Lose";
         playerscore = 0;
         computerscore = 0;
         document.getElementById("c").innerHTML = computerscore;
