@@ -82,7 +82,7 @@ body
     
 }
 
-.score , .display, .score_d
+.score , .display, .score_d, .events
 {
     font-size: 35px;
     color: azure;
